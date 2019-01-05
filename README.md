@@ -4,7 +4,7 @@ Control a RC car over wifi
 
 ## Server
 
-npm install express
+npm install express <br/>
 npm install socketio
 
 ## Getting Communications on Pi
@@ -15,7 +15,7 @@ sudo apt-get update
 
 [make sure its Python 3.4.x]
 
-pip3 install python-socketio
+pip3 install python-socketio <br/>
 pip3 install asyncio
 
 
@@ -59,7 +59,7 @@ sudo nano /etc/dphys-swapfile
 
 CONF_SWAPSIZE=1024
 
-[restart pi]
+[restart pi]<br/>
 [navigate to "opencv-3.4.1/build" directory]
 
 sudo make -j4
@@ -70,7 +70,7 @@ sudo make install
 sudo ldconfig
 
 
-[now we can confirm cv2 python bindings]
+[now we can confirm cv2 python bindings]<br/>
 ls /usr/local/lib/python3.x/dist-packages
 
 
