@@ -1,12 +1,32 @@
 # wifi_rover
 
+Control a RC car over wifi 
 
+## Server
+
+npm install express
+npm install socketio
 
 ## Getting Communications on Pi
+
+sudo apt-get install python3
+
+[make sure its Python 3.4.x]
+
 pip3 install python-socketio
+pip3 install asyncio
+pip3 install websocket-client
+pip3 install numpy
+
+sudo pip3 install --upgrade --ignore-installed urllib3
 
 
 ## GETTING AND BUILDING OPENCV 3.4 ON PI
+
+
+[OPTIONAL: needed for displaying opencv frames]
+sudo apt-get install libgtk2.0-dev pkg-config
+
 
 [be in the home directory]
 
@@ -45,3 +65,14 @@ CONF_SWAPSIZE=1024
 sudo make -j4
 
 [wait forever]
+
+sudo make install
+sudo ldconfig
+
+
+[now we can confirm cv2 python bindings]
+ls /usr/local/lib/python3.x/dist-packages
+
+
+
+using python3
