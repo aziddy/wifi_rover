@@ -11,14 +11,12 @@ npm install socketio
 
 sudo apt-get install python3
 
+sudo apt-get update
+
 [make sure its Python 3.4.x]
 
 pip3 install python-socketio
 pip3 install asyncio
-pip3 install websocket-client
-pip3 install numpy
-
-sudo pip3 install --upgrade --ignore-installed urllib3
 
 
 ## GETTING AND BUILDING OPENCV 3.4 ON PI
@@ -30,12 +28,12 @@ sudo apt-get install libgtk2.0-dev pkg-config
 
 [be in the home directory]
 
-sudo apt-get install build-essential cmake pkg-config
-sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get install libxvidcore-dev libx264-dev
-sudo apt-get install libgtk2.0-dev libgtk-3-dev
-sudo apt-get install libatlas-base-dev gfortran
+sudo apt-get install build-essential cmake pkg-config <br/>
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev <br/>
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev <br/>
+sudo apt-get install libxvidcore-dev libx264-dev <br/>
+sudo apt-get install libgtk2.0-dev libgtk-3-dev <br/>
+sudo apt-get install libatlas-base-dev gfortran <br/>
 
 wget -O opencv.zip https://github.com/opencv/opencv/archive/3.4.1.zip
 
@@ -55,7 +53,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.1/modules \
 -D BUILD_EXAMPLES=ON ..
 
-cd /etc/dphys-swapfile
+sudo nano /etc/dphys-swapfile
+
+[find and switch out value]
 
 CONF_SWAPSIZE=1024
 
