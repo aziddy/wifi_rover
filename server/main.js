@@ -38,10 +38,9 @@ io.on('connection', function(socket) {
 	socket.on('disconnect', function() {
 		console.log("disconnected");
 		socket.broadcast.emit('message', 'hello friends!');
-		
-		/*if(webPageSocket == socket.id){
+		if(socket.id == webPageSocket){
 			webPageSocket = null;
-		}*/
+		}
 		
 	});
 	
@@ -71,7 +70,9 @@ io.on('connection', function(socket) {
 	
 	socket.on('video', function(msg) {
 		//console.log("yeet video");
-		socket.broadcast.to(webPageSocket).emit('video', msg);
+		if(!(webPageSocket == null)){
+			socket.broadcast.to(webPageSocket).emit('video', msg);
+		}
 	});
 	
 	
@@ -99,7 +100,7 @@ io.on('connection', function(socket) {
 	
 });
 
-console.log("reee");
+console.log("Start Wifi_Rover Server");
 
 
 
