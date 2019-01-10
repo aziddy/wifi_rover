@@ -10,26 +10,12 @@ app.use(express.static(path.join(__dirname)));
 var webPageSocket;
 var roverSocket;
 
+var webPageSockets = new Array();
+
 app.get('/', function(req, res) {
 	
-	/*sess=req.session;
-	var loggedIn = sess.loggedIn;
-	var loggedInUserEmail = sess.email;
-	var loggedInUserId = sess.userid;
-	
-	var data = {
-		loggedIn: loggedIn,
-	   	loggedInUserEmail: loggedInUserEmail,
-		title: "shit",
-		body: "bagelss",
-		firstName: "Alex",
-		lastName: "Zidros",
-		logged: true,
-		tagline: "TAGRINErr"
-	}; */
-	//res.render('index', data);
 	 res.sendFile("index.html");
-	//res.send("<head><script src='/socket.io/socket.io.js'></script></head>yeet<script>var socket = io.connect();socket.emit('initWeb', 1);</script>");
+
 });
 
 io.on('connection', function(socket) {
@@ -37,10 +23,24 @@ io.on('connection', function(socket) {
 	
 	socket.on('disconnect', function() {
 		console.log("disconnected");
-		socket.broadcast.emit('message', 'hello friends!');
-		if(socket.id == webPageSocket){
-			webPageSocket = null;
+		//if(socket.id == webPageSocket){
+		//	webPageSocket = null;
+		//}
+		
+		try {
+			for (var i = 0; i < webPageSockets.length; i++) { 
+				if(socket.id == webPageSockets[i]){
+					webPageSockets.splice(i, 1);
+				}
+			}
+		} catch(err) {
+			console.log(err);
+			console.log("Removing from array error");
 		}
+		
+
+		
+		console.log(webPageSockets);
 		
 	});
 	
@@ -50,7 +50,9 @@ io.on('connection', function(socket) {
 	
 	socket.on('initWeb', function(msg) {
 		console.log("initWeb");
-		webPageSocket = socket.id;
+		//webPageSocket = socket.id;
+		webPageSockets.push(socket.id);
+		console.log(webPageSockets);
 	});
 	
 	socket.on('initPi', function(msg) {
@@ -69,9 +71,19 @@ io.on('connection', function(socket) {
 	// from car
 	
 	socket.on('video', function(msg) {
-		//console.log("yeet video");
+		/*
 		if(!(webPageSocket == null)){
 			socket.broadcast.to(webPageSocket).emit('video', msg);
+		}*/
+		if(webPageSockets.length > 0){
+			try {
+				for (var i = 0; i < webPageSockets.length; i++) { 
+					socket.broadcast.to(webPageSockets[i]).emit('video', msg);
+				}
+			} catch(err) {
+				console.log(err);
+				console.log(" array error");
+			}
 		}
 	});
 	
