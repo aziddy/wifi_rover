@@ -22,11 +22,11 @@ pip3 install asyncio
 ## GETTING AND BUILDING OPENCV 3.4 ON PI
 
 
-[OPTIONAL: needed for displaying opencv frames]
+***[OPTIONAL: needed for displaying opencv frames]***
 sudo apt-get install libgtk2.0-dev pkg-config
 
 
-[be in the home directory]
+***[be in the home directory]***
 
 sudo apt-get install build-essential cmake pkg-config <br/>
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev <br/>
@@ -55,7 +55,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 
 sudo nano /etc/dphys-swapfile
 
-[find and switch out value]
+***[find and switch out value]***
 
 CONF_SWAPSIZE=1024
 
@@ -64,7 +64,7 @@ CONF_SWAPSIZE=1024
 
 sudo make -j4
 
-[wait forever]
+***[wait forever]***
 
 sudo make install
 sudo ldconfig
@@ -77,5 +77,5 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjk2ODEwOV19
+eyJoaXN0b3J5IjpbODQ0MzY4Nzg1LC0yNTI5NjgxMDldfQ==
 -->
