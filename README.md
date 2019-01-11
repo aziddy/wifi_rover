@@ -13,7 +13,7 @@ sudo apt-get install python3
 
 sudo apt-get update
 
-[make sure its Python 3.4.x]
+***[make sure its Python 3.4.x]***
 
 pip3 install python-socketio <br/>
 pip3 install asyncio
@@ -59,8 +59,8 @@ sudo nano /etc/dphys-swapfile
 
 CONF_SWAPSIZE=1024
 
-[restart pi]<br/>
-[navigate to "opencv-3.4.1/build" directory]
+***[restart pi]*** <br/>
+***[navigate to "opencv-3.4.1/build" directory]***
 
 sudo make -j4
 
@@ -70,12 +70,12 @@ sudo make install
 sudo ldconfig
 
 
-[now we can confirm cv2 python bindings]<br/>
+***[now we can confirm cv2 python bindings]*** <br/>
 ls /usr/local/lib/python3.x/dist-packages
 
 
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MzY4Nzg1LC0yNTI5NjgxMDldfQ==
+eyJoaXN0b3J5IjpbLTk3MTk1ODQ1NSwtMjUyOTY4MTA5XX0=
 -->
