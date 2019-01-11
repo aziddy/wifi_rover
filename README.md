@@ -76,3 +76,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 
 using python3
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI1Mjk2ODEwOV19
+-->
