@@ -1,12 +1,13 @@
 # wifi_rover
 
-Control a RC car over wifi 
+Control a RC car over the internet!
 
 | ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg) | ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg) |
 |--|--|
 
 ## Component List
-*
+* Raspberry PI 3 
+* 
 
 ## Server
 
@@ -83,5 +84,5 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzEyOTE5LC00NjA4Nzg1NDJdfQ==
+eyJoaXN0b3J5IjpbMTQ3MDIxODA0NSwtNDYwODc4NTQyXX0=
 -->
