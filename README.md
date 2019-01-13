@@ -9,7 +9,8 @@ Control a RC car over the internet!
 * Raspberry PI 3 
 * Arduino Uno
 * Almost any USB Camera
-* Any RC car or the one i g
+* Any RC car or [The One I Used](https://www.amazon.ca/dp/B015DZP1R8/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B015DZP1R8&pd_rd_w=dQz0q&pf_rd_p=dd8bce25-0727-4a5d-b121-eef3dd7bc606&pd_rd_wg=J5q89&pf_rd_r=9149TJCHYBZFBPTSZRW8&pd_rd_r=1bb8f8d5-176a-11e9-b659-e924ff0deddf)
+* Battery Bank that can do 2.5+ Amps Out
 
 ## Server
 
@@ -86,6 +87,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMjIxODMxLDE0NzAyMTgwNDUsLTQ2MD
+eyJoaXN0b3J5IjpbOTU5NDc4NDIyLDE0NzAyMTgwNDUsLTQ2MD
 g3ODU0Ml19
 -->
