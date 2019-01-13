@@ -2,6 +2,9 @@
 
 Control a RC car over wifi 
 
+
+
+
 ## Server
 
 npm install express <br/>
@@ -77,5 +80,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTk1ODQ1NSwtMjUyOTY4MTA5XX0=
+eyJoaXN0b3J5IjpbMTMxMTM5OTY5OSwtOTcxOTU4NDU1LC0yNT
+I5NjgxMDldfQ==
 -->
