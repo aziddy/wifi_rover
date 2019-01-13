@@ -7,7 +7,9 @@ Control a RC car over the internet!
 
 ## Component List
 * Raspberry PI 3 
-* 
+* Arduino Uno
+* Almost any USB Camera
+* Any RC car or the one i g
 
 ## Server
 
@@ -84,5 +86,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDIxODA0NSwtNDYwODc4NTQyXX0=
+eyJoaXN0b3J5IjpbMzEzMjIxODMxLDE0NzAyMTgwNDUsLTQ2MD
+g3ODU0Ml19
 -->
