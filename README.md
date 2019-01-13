@@ -9,7 +9,7 @@ Control a RC car over the internet!
 * Was going to use a Arduino Micro Clone but the serial communications for it require installing a CH340 driver that's hard to compile on a Pi
 *  I was going to make a logic level convertor but I didn't have the correct pull up resistors on hand. So I just used a full Uno for serial communications 
 * I broke the steering gearbox for RC car. So I glued a servo in its place that works well
-* 
+* Getting actual streaming software on PI is effort so just sending compressed JPEG images over websockets seem like a 
 
 ## Component List
 * Raspberry PI 3 
@@ -93,6 +93,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY0Nzg2NDUsLTEyMzc0MjEzMjksMT
+eyJoaXN0b3J5IjpbLTE5MTY5MzQ5MzMsLTEyMzc0MjEzMjksMT
 Q3MDIxODA0NSwtNDYwODc4NTQyXX0=
 -->
