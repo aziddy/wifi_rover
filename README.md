@@ -6,7 +6,7 @@ Control a RC car over the internet!
 |--|--|
 
 ## Issues That Arose During the Build 
-* Was going to use a Arduino Micro Clone
+* Was going to use a Arduino Micro Clone but the serial communications for it require installing a CH340 driver thats hard to compile and not
 
 ## Component List
 * Raspberry PI 3 
@@ -90,6 +90,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDI3OTAwMCwxNDcwMjE4MDQ1LC00Nj
-A4Nzg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzc0MjEzMjksMTQ3MDIxODA0NSwtND
+YwODc4NTQyXX0=
 -->
