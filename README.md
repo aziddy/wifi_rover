@@ -2,6 +2,8 @@
 
 Control a RC car over the internet!
 
+I wanted my girl
+
 | ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg) | ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg) |
 |--|--|
 
@@ -93,6 +95,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM1NTA5MjAsLTEyMzc0MjEzMjksMT
-Q3MDIxODA0NSwtNDYwODc4NTQyXX0=
+eyJoaXN0b3J5IjpbMTM0MDAyNDg4MiwtMTIzNzQyMTMyOSwxND
+cwMjE4MDQ1LC00NjA4Nzg1NDJdfQ==
 -->
