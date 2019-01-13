@@ -2,7 +2,8 @@
 
 Control a RC car over wifi 
 
-
+| ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg) |  |
+|--|--|
 
 
 ## Server
@@ -80,6 +81,6 @@ ls /usr/local/lib/python3.x/dist-packages
 
 using python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTM5OTY5OSwtOTcxOTU4NDU1LC0yNT
-I5NjgxMDldfQ==
+eyJoaXN0b3J5IjpbLTEzODIzNDc0NTgsLTk3MTk1ODQ1NSwtMj
+UyOTY4MTA5XX0=
 -->
