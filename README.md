@@ -4,8 +4,13 @@ Control a RC car over the internet!
 
 I wanted my girlfriend, who went on vacation recently. To drive around the house and interact with my dog. So I made this thing so she control it halfway across the world
 
-| ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg) | ![enter image description here](https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg) |
-|--|--|
+
+
+<p align="center" style="vertical-align: top; position: relative" >
+  <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg" width="400"/>
+    <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg" width="400"/>
+
+</p>
 
 ## Issues That Arose During the Build 
 * Was going to use a Arduino Micro Clone but the serial communications for it require installing a CH340 driver that's hard to compile on a Pi
