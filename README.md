@@ -31,6 +31,11 @@ My girlfriend went on vacation recently. So I made this thing so she control it 
 
 
 ## Reverse Engineering the RC Car
+So I followed the traces on the PCB, got the schematic for the motor controller (MX1919) and whipped out the oscilloscope.
+
+The main controller on the PCB was sending 2 basic digital signals at 3v logic to pins 2 and 3 on the MX1919 for foward and reverse
+
+So I slapped two digital ouputs from a Arduino on pins 2 and 3 to take control
 
 <p align="center" style="vertical-align: top; position: relative" >
   <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/circuit.PNG" width="400"/>
