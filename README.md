@@ -9,8 +9,6 @@ My girlfriend went on vacation recently. So I made this thing so she control it 
 <p align="center" style="vertical-align: top; position: relative" >
   <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg" width="400"/>
     <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg" width="400"/>
-  <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/circuit.PNG" width="400"/>
-    <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190103_230744.jpg" width="400"/>
 </p>
 
 ## Issues That Arose During the Build 
@@ -21,9 +19,23 @@ My girlfriend went on vacation recently. So I made this thing so she control it 
 ## Component List
 * Raspberry PI 3 
 * Arduino Uno
+* Servo (Only if you dont break the steering on your RC car)
 * Almost any USB Camera
 * Any RC car or [The One I Used](https://www.amazon.ca/dp/B015DZP1R8/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B015DZP1R8&pd_rd_w=dQz0q&pf_rd_p=dd8bce25-0727-4a5d-b121-eef3dd7bc606&pd_rd_wg=J5q89&pf_rd_r=9149TJCHYBZFBPTSZRW8&pd_rd_r=1bb8f8d5-176a-11e9-b659-e924ff0deddf)
 * Battery Bank that can do 2.5+ Amps Out
+
+
+<p align="center" style="vertical-align: top; position: relative" >
+<img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/wiring.png" width="600"/>
+</p>
+
+
+## Reverse Engineering the RC Car
+
+<p align="center" style="vertical-align: top; position: relative" >
+  <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/circuit.PNG" width="400"/>
+    <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190103_230744.jpg" width="400"/>
+</p>
 
 ## Server
 
