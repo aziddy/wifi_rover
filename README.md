@@ -14,8 +14,7 @@ My girlfriend went on vacation recently. So I made this thing so she control it 
 </p>
 
 ## Issues That Arose During the Build 
-* Was going to use a Arduino Micro Clone but the serial communications for it require installing a CH340 driver that's hard to compile on a Pi
-*  I was going to make a logic level convertor but I didn't have the correct pull up resistors on hand. So I just used a full Uno for serial communications 
+* Was going to use a Arduino Micro Clone but the serial communications for it require installing a CH340 driver that's hard to compile on a Pi. So I went with a full Uno
 * I broke the steering gearbox for RC car. So I glued a servo in its place that works well
 * Getting actual streaming software on PI is a effort so just sending compressed JPEG images over websockets seemed like a quick and dirty way
 
