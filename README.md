@@ -9,7 +9,8 @@ My girlfriend went on vacation recently. So I made this thing so she control it 
 <p align="center" style="vertical-align: top; position: relative" >
   <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190111_194400.jpg" width="400"/>
     <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20181231_172916.jpg" width="400"/>
-
+  <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/circuit.PNG" width="400"/>
+    <img style="vertical-align:top" src="https://raw.githubusercontent.com/aziddy/wifi_rover/master/media/IMG_20190103_230744.jpg" width="400"/>
 </p>
 
 ## Issues That Arose During the Build 
