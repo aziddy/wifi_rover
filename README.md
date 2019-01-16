@@ -88,11 +88,11 @@ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.
 unzip opencv.zip
 unzip opencv_contrib.zip
 ```
-
+```
 cd ~/opencv-3.4.1/
 mkdir build
 cd build
-```
+
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D INSTALL_PYTHON_EXAMPLES=ON \
