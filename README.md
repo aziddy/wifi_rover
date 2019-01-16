@@ -68,8 +68,9 @@ pip3 install asyncio
 
 
 ***[OPTIONAL: needed for displaying opencv frames]***
+```
 sudo apt-get install libgtk2.0-dev pkg-config
-
+```
 
 ***[be in the home directory]***
 ```
