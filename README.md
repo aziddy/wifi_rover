@@ -2,7 +2,7 @@
 
 Control a RC car over the internet!
 
-My girlfriend went on vacation recently. So I made this thing so she control it halfway across the world
+My friend went on vacation recently. So I made this thing so she can control it halfway across the world
 
 
 
